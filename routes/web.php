@@ -14,18 +14,17 @@ Route::get('/', function () {
     return view('pages.client.home.index');
 })->name('home');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
-Route::get('/feature', function () {
-    return view('pages.client.feature.index');
-})->name('feature');
-Route::get('/portfolio', function () {
-    return view('pages.client.portfolio.index');
-})->name('portfolio');
-Route::get('/contact', function () {
-    return view('pages.client.contact.index');
-})->name('contact');
+Route::get('/about', function () {
+    return view('pages.client.about.index');
+});
+
+Route::get('/packages', function () {
+    return view('pages.client.packages.index');
+});
+
+Route::get('/tutorials', function () {
+    return view('pages.client.tutorials.index');
+});
 
 Route::get('/price', [PriceController::class, 'index'])->name('price');
 Route::get('/price/data', [PriceController::class, 'data']);
