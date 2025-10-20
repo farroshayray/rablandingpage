@@ -1,86 +1,57 @@
-<footer class=" w-full text-black dark:text-white pt-10 pb-4 px-6 md:px-20 bg-white border-t dark:border-none dark:bg-black">
-    <div class="flex flex-col md:flex-row justify-between gap-8 mb-10">
-        {{-- Kolom 1 --}}
-        <div class="flex-1">
-            <!-- Logo untuk Light Mode -->
-            <img src="{{ asset('images/vastech-transparent-black.png') }}"
-                class="block dark:hidden h-24 w-auto ml-7"
-                alt="Logo Light Mode">
-
-            <!-- Logo untuk Dark Mode -->
-            <img src="{{ asset('images/vastech-transparent-white.png') }}"
-                class="hidden dark:block h-24 w-auto ml-7"
-                alt="Logo Dark Mode">
-            <div class="flex-1 mt-4">
-                <div>
-                    <div class="flex space-x-4 bg-black p-2 rounded-full w-fit">
-                        <a href="https://wa.me/6285183258575?text=Hi%20Vastech!%20saya%20ingin%20mengetahui%20lebih%20lanjut%20tentang%20produk%20digital%20yang%20ditawarkan"
-                            class="transform transition-transform duration-300 hover:scale-125"
-                            target="_blank">
-                            <img src="{{ asset('icons/icon-whatsapp.png') }}" alt="Whatsapp" class="w-6 h-6">
-                        </a>
-                        <a href="https://www.instagram.com/vastech_id/"
-                            class="transform transition-transform duration-300 hover:scale-125"
-                            target="_blank">
-                            <img src="{{ asset('icons/icon-instagram.png') }}" alt="Instagram" class="w-6 h-6">
-                        </a>
-                        <a href="https://www.linkedin.com/posts/vastech.dev_webdevelopment-softwarecompany-techinnovation-activity-7320650860521304064-aZI8?utm_source=share&utm_medium=member_ios&rcm=ACoAACQcU4UBV3ZbgcZzIloAbMQ-f3n9UKoq344"
-                            class="transform transition-transform duration-300 hover:scale-125"
-                            target="_blank">
-                            <img src="{{ asset('icons/icon-linkedin.png') }}" alt="Linkedin" class="w-6 h-6">
-                        </a>
-                        <a href="#"
-                            class="transform transition-transform duration-300 hover:scale-125"
-                            onclick="sendEmail()" target="_blank">
-                            <img src="{{ asset('icons/icon-email.png') }}" alt="Email" class="w-6 h-6">
-                        </a>
-                    </div>
-                </div>
-            </div>
+<!-- Footer -->
+  <footer class="bg-black py-12 sm:py-16 md:py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12 mb-8 sm:mb-12">
+        <div>
+          <h3 class="text-lg sm:text-xl font-bold mb-4 sm:mb-6 text-white">SMESTICON</h3>
+          <div class="flex gap-4">
+            <a href="#" class="text-white hover:text-grey-orange transition">
+              <i class="fab fa-whatsapp text-xl sm:text-2xl"></i>
+            </a>
+            <a href="#" class="text-white hover:text-grey-orange transition">
+              <i class="fab fa-instagram text-xl sm:text-2xl"></i>
+            </a>
+            <a href="#" class="text-white hover:text-grey-orange transition">
+              <i class="fab fa-linkedin text-xl sm:text-2xl"></i>
+            </a>
+            <a href="#" class="text-white hover:text-grey-orange transition">
+              <i class="fas fa-envelope text-xl sm:text-2xl"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-3 sm:mb-4 text-white text-sm sm:text-base">Halaman</h4>
+          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
+            <li><a href="#" class="hover:text-grey-orange transition">Beranda</a></li>
+            <li><a href="#tentang" class="hover:text-grey-orange transition">Tentang</a></li>
+            <li><a href="#paket" class="hover:text-grey-orange transition">Paket</a></li>
+            <li><a href="#faq" class="hover:text-grey-orange transition">FAQ</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-3 sm:mb-4 text-white text-sm sm:text-base">Layanan</h4>
+          <ul class="space-y-2 sm:space-y-3 text-xs sm:text-sm text-gray-400">
+            <li>RAB Otomatis</li>
+            <li>Konsultasi Online</li>
+            <li>Update Harga</li>
+            <li>Dashboard Analitik</li>
+          </ul>
         </div>
 
-        {{-- Kolom 2 --}}
-        <div class="flex-1">
-            <h3 class="text-lg font-semibold mb-3">Perusahaan</h3>
-            <ul class="space-y-2 text-sm">
-                <li><a href="{{ url('/about') }}" class="hover:underline">Tentang Kami</a></li>
-                <li><a href="{{ url('/contact') }}" class="hover:underline">Kontak</a></li>
-                <li><a href="{{ url('/careers') }}" class="hover:underline">Karier</a></li>
-                <li><a href="{{ url('/terms') }}" class="hover:underline">Syarat & Ketentuan</a></li>
-            </ul>
+        <div>
+          <div class="rounded-lg overflow-hidden border border-gray-700">
+            <img src="images/maps-vastu.png" alt="Lokasi SMESTICON" class="w-full h-32 sm:h-40 object-cover">
+          </div>
+          <p class="text-xs text-gray-400 mt-3 leading-relaxed">
+            Jl. HOS Cokroaminoto No.225, Tegalrejo, Kec. Tegalrejo, Kota Yogyakarta, DIY 55244
+          </p>
         </div>
-
-        {{-- Kolom 3 --}}
-        <div class="flex-1">
-            <h3 class="text-lg font-semibold mb-3">Layanan</h3>
-            <ul class="space-y-2 text-sm">
-                <li><a href="{{ url('/search') }}" class="hover:underline">Pesan Tiket</a></li>
-                <li><a href="{{ url('/faq') }}" class="hover:underline">Bantuan</a></li>
-                <li><a href="{{ url('/partners') }}" class="hover:underline">Kemitraan</a></li>
-            </ul>
-        </div>
+      </div>
+      
+      <div class="border-t border-white/70 pt-6 sm:pt-8 text-center text-xs sm:text-sm text-gray-400">
+        © 2025 SMESTICON. All rights reserved.
+      </div>
     </div>
-
-    <div class="text-center text-xs border-t border-white/30 pt-4">
-        &copy; {{ date('Y') }} Vastech. All rights reserved.
-    </div>
-</footer>
-<script>//send email function
-    function sendEmail() {
-      var fullname = '';
-      var email = '';
-      var phone = '';
-      var subject = 'Tanya tentang produk digital Vastech';
-      var message = 'Halo Vastech, saya ingin menanyakan tentang produk digital yang ditawarkan.';
-
-      var mailtoLink = 'mailto:development.vastech@gmail.com?subject=' + encodeURIComponent(subject) +
-                       '&body=' + encodeURIComponent(
-                         'Nama Lengkap: ' + fullname + '\n' +
-                         'Email: ' + email + '\n' +
-                         'No Telepon: ' + phone + '\n' +
-                         'Pesan: ' + message
-                       );
-
-      window.location.href = mailtoLink;
-    }
-  </script>
+  </footer>
