@@ -4,7 +4,7 @@
         <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 sm:mb-3 text-gray-900">Panduan Lengkap SMESTICON</h2>
         <p class="text-sm sm:text-base text-gray-600 leading-relaxed mb-2">Ingin panduan lengkap langkah demi langkah?</p>
         <p class="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">Untuk Manual Book SMESTICON versi terbaru dalam format PDF.</p>
-        <a href="#" class="inline-block px-5 sm:px-6 py-2 sm:py-3 rounded-lg bg-grey-orange text-white font-semibold text-sm sm:text-base hover:bg-grey-orange-dark transition shadow-lg mb-6 sm:mb-8">
+        <a href="https://drive.google.com/file/d/1MHSYtfBzrmZBapTQMq3xPy_xoCI8oYY6/view?usp=sharing" class="inline-block px-5 sm:px-6 py-2 sm:py-3 rounded-lg bg-grey-orange text-white font-semibold text-sm sm:text-base hover:bg-grey-orange-dark transition shadow-lg mb-6 sm:mb-8">
           Unduh Manual Book
         </a>
       </div>
