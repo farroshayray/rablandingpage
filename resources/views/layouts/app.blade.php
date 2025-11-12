@@ -11,8 +11,8 @@
             theme: {
                 extend: {
                     colors: {
-                        'grey-orange': '#998169',
-                        'grey-orange-dark': '#7d6a56',
+                        'grey-orange': '#2D74FF',
+                        'grey-orange-dark': '#184AA1',
                     }
                 }
             }

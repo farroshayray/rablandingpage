@@ -9,7 +9,7 @@
                     <p class="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4">Coba SMESTICON sebelum berlangganan!</p>
                     <p class="text-xs sm:text-sm text-gray-600 mb-4 sm:mb-6">Gunakan semua fitur dasar untuk memahami
                         alur kerja dan manfaatnya.</p>
-                    <a href="https://rabtest.livevcp.online/admin/login" target="_blank" rel="noopener noreferrer">
+                    <a href="https://rab.livevcp.online/admin/login" target="_blank" rel="noopener noreferrer">
                         <button
                             class="min-w-[220px] px-5 sm:px-6 py-2 sm:py-3 rounded-lg bg-grey-orange text-white font-semibold text-sm sm:text-base hover:bg-grey-orange-dark transition shadow-lg">Mulai
                             Trial Gratis</button>
