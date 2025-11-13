@@ -54,6 +54,85 @@
             <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Bisa. Pengguna dapat membuat AHS lokal sesuai kebutuhan.</p>
           </div>
         </div>
+
+        <!-- FAQ Item 5 -->
+        <div class="bg-white border-2 border-gray-200 rounded-xl overflow-hidden">
+            <button class="w-full px-5 sm:px-8 py-5 sm:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+              <h3 class="text-base sm:text-lg font-bold text-gray-900 pr-4">Apakah data di SMESTICON aman?</h3>
+              <svg class="w-5 sm:w-6 h-5 sm:h-6 text-grey-orange flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="px-5 sm:px-8 pb-5 sm:pb-6 hidden">
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Ya, semua data tersimpan di server yang aman dan hanya dapat diakses oleh pengguna yang memiliki izin.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 6 -->
+        <div class="bg-white border-2 border-gray-200 rounded-xl overflow-hidden">
+            <button class="w-full px-5 sm:px-8 py-5 sm:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+              <h3 class="text-base sm:text-lg font-bold text-gray-900 pr-4">Apakah SMESTICON dapat digunakan tanpa koneksi internet?</h3>
+              <svg class="w-5 sm:w-6 h-5 sm:h-6 text-grey-orange flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="px-5 sm:px-8 pb-5 sm:pb-6 hidden">
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Tidak. SMESTICON berbasis web, sehingga memerlukan koneksi internet untuk mengakses dan menyimpan data.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 7 -->
+        <div class="bg-white border-2 border-gray-200 rounded-xl overflow-hidden">
+            <button class="w-full px-5 sm:px-8 py-5 sm:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+              <h3 class="text-base sm:text-lg font-bold text-gray-900 pr-4">Apakah saya bisa mengekspor hasil RAB ke format Excel atau PDF?</h3>
+              <svg class="w-5 sm:w-6 h-5 sm:h-6 text-grey-orange flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="px-5 sm:px-8 pb-5 sm:pb-6 hidden">
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Bisa. SMESTICON menyediakan fitur ekspor laporan ke berbagai format seperti PDF dan Excel.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 8 -->
+        <div class="bg-white border-2 border-gray-200 rounded-xl overflow-hidden">
+            <button class="w-full px-5 sm:px-8 py-5 sm:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+              <h3 class="text-base sm:text-lg font-bold text-gray-900 pr-4">Bagaimana cara mendapatkan akun SMESTICON?</h3>
+              <svg class="w-5 sm:w-6 h-5 sm:h-6 text-grey-orange flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="px-5 sm:px-8 pb-5 sm:pb-6 hidden">
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Pengguna dapat mendaftar melalui halaman pendaftaran atau menghubungi tim SMESTICON untuk mendapatkan akses.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 9 -->
+        <div class="bg-white border-2 border-gray-200 rounded-xl overflow-hidden">
+            <button class="w-full px-5 sm:px-8 py-5 sm:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+              <h3 class="text-base sm:text-lg font-bold text-gray-900 pr-4">Apakah SMESTICON bisa digunakan oleh lebih dari satu pengguna dalam satu proyek?</h3>
+              <svg class="w-5 sm:w-6 h-5 sm:h-6 text-grey-orange flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="px-5 sm:px-8 pb-5 sm:pb-6 hidden">
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Bisa. Kamu dapat menambahkan beberapa pengguna dengan hak akses yang berbeda dalam satu proyek.</p>
+            </div>
+        </div>
+
+        <!-- FAQ Item 10 -->
+        <div class="bg-white border-2 border-gray-200 rounded-xl overflow-hidden">
+            <button class="w-full px-5 sm:px-8 py-5 sm:py-6 text-left flex items-center justify-between hover:bg-gray-50 transition-colors">
+              <h3 class="text-base sm:text-lg font-bold text-gray-900 pr-4">Apakah ada panduan atau tutorial penggunaan SMESTICON?</h3>
+              <svg class="w-5 sm:w-6 h-5 sm:h-6 text-grey-orange flex-shrink-0 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <div class="px-5 sm:px-8 pb-5 sm:pb-6 hidden">
+              <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">Ada. Tersedia panduan langkah demi langkah dan video tutorial di menu Pusat Bantuan.</p>
+            </div>
+        </div>
+
       </div>
     </div>
   </section>
